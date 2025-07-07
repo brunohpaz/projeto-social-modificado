@@ -8,23 +8,30 @@ padding: 0;
 html, body {
     height: 100vh;
     width: 100vw;
-    background-color: slateblue;
+    /**background-color: slateblue;**/
 }
 
+body {
+    background: url("../imgs/table-made-with-planks-3000px.jpg") no-repeat top center;
+    background-size: cover; 
+    background-attachment: fixed;
+}
 main{
     position: relative;
     height: 100vh;
-    background-color: rebeccapurple;
+    no-repeat: center center;
+    /*background-color: rebeccapurple;*/
 }
 section#note5 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -40%);
     height: 1003px;
     width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: darkslateblue;
+    background: url("../imgs/galaxy note 5 500px .png") no-repeat center center;
+    /*background-color: darkslateblue;*/
 }
