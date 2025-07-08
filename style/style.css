@@ -35,3 +35,10 @@ section#note5 {
     background: url("../imgs/galaxy note 5 500px .png") no-repeat center center;
     /*background-color: darkslateblue;*/
 }
+iframe#home {
+    position: relative;
+    top:-6px;
+    left:0px;
+    width:459px;
+    height:816px;
+}
