@@ -42,3 +42,19 @@ iframe#home {
     width:459px;
     height:816px;
 }
+section#social-medias{
+    text-align: right;
+    position: relative;
+    top: 40%;
+}
+section#social-medias img {
+    border-radius: 50%;
+    width: 125px;
+    height: auto;
+    margin: 10px;
+    box-shadow: 3px 3px 9px hsla(0, 0%, 0%, 0.6);
+}
+
+section img :hover {
+    background-color: black;
+}
