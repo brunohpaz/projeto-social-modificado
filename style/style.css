@@ -57,8 +57,7 @@ section#social-medias img {
 }
 
 button:hover {
-    transform: scale(1.075);
-    transition: 0.33s ease-in-out;
+    transform: translate3d(-15px, 0, 0);
     background-color: rgba(0, 0, 0, 0);
     border: -100px;
 }
@@ -70,4 +69,5 @@ button{
     background-color: hsla(0, 0%, 5%, 0);
     border: none;
     cursor: pointer;
+    transition: transform 0.33s ease-in-out;
 }
