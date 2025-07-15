@@ -39,7 +39,7 @@ iframe#home {
     position: relative;
     top:-6px;
     left:0px;
-    width:459px;
+    width:460px;
     height:816px;
 }
 section#social-medias{
@@ -69,5 +69,5 @@ button{
     background-color: hsla(0, 0%, 5%, 0);
     border: none;
     cursor: pointer;
-    transition: transform 0.33s ease-in-out;
+    transition: ease-in-out 0.33s;
 }
